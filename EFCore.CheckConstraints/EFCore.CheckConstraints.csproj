@@ -6,7 +6,6 @@
     <VersionPrefix>0.1.0</VersionPrefix>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <SignAssembly>true</SignAssembly>
-    <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
     <AssemblyOriginatorKeyFile>../EFCore.CheckConstraints.snk</AssemblyOriginatorKeyFile>
     <Description>Entity Framework Core for automatically adding check constraints in various scenarios.</Description>
     <Authors>Shay Rojansky</Authors>
